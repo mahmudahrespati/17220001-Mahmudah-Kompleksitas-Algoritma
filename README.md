@@ -2,8 +2,7 @@
 Contoh penerapan Kompleksitas Algoritma menggunanakan bahasa  pemrograman PHP
 1.	Selection Sort
 Script :
-<?php
- 
+<?php 
 function selection_sort($data){
   for($i=0; $i<count($data)-1; $i++) {
     $min = $i;
